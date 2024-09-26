@@ -1,0 +1,75 @@
+    .lcontainer {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      padding-top: 370px;
+      flex-direction: column;
+      margin-bottom: 300px; 
+    }
+    form {
+      padding: 37px 43px;
+      border-radius: 20px;
+      border: 1px solid var(--Grey, #DDE2E5);
+      background: #FFF;
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      align-items: flex-start;
+    }
+    .inputGroup {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+        }
+    .inputGroup input{
+      display: flex;
+      width: 375px;
+      height: 58px;
+      padding: 8px 16px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 8px;
+      border: 1px solid var(--Black-1, #CFD3D4);
+      }
+    .inputGroup input::placeholder{
+      color: var(--Black-2, #ABAFB1);
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      align-self: stretch;
+    }
+    .button {
+      height: 50px;
+      width: 360px;
+      padding: 0.5rem;
+      background-color: rgb(61, 121, 161);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .button2{
+      height: 40px;
+      width: 450px;
+    }
+    label{
+      position: absolute;
+      padding: 8px 0px 0px 20px;
+      color: var(--Black-4, #5E6366);
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    input:focus + label{
+      transform: translateY(-27px);
+    }
+    ::placeholder{
+      padding: 0px 0px 0px 15px;
+      display: flexbox;
+    }

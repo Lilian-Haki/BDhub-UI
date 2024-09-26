@@ -1,0 +1,50 @@
+   .container{
+    padding-bottom: 200px;
+   }
+   .form {
+    width: 800px;
+    height: 900px;
+    margin: 250px auto;
+    margin-top: 400px;
+    }
+  .inputGroup {
+   padding: 10px 0px 10px 0px;      
+  }
+  .inputGroup1 {
+    padding: 10px 0px 10px 0px; 
+    display: flex;   
+  }
+  .inputGroup1 div{
+    margin-right: 50px;
+  }
+  .inputGroup ,.inputGroup1 input{
+    height: 50px;
+    width: 350px;
+  }
+  .button {
+    height: 50px;
+    width: 360px;
+    padding: 0.5rem;
+    background-color: rgb(61, 121, 161);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .button2{
+    height: 40px;
+    width: 450px;
+  }
+  label{
+    position: absolute;
+    padding: 8px 0px 0px 20px;
+  }
+  input:focus + label{
+    transform: translateY(-27px);
+  }
+  ::placeholder{
+    padding: 0px 0px 0px 15px;
+    display: flexbox;
+  }
+  .agreement{
+    background-color: grey;
+  }

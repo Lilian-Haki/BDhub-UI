@@ -1,0 +1,154 @@
+.footer {
+    text-align: center;
+    background-color: #1478A3;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    
+  }
+.bid{
+  display: inline-flex;
+  padding-right: 0.004px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.4px;
+ }
+ /* .logoText h2{
+  padding-left: 10px;
+  text-align: justify;
+ }
+ .logoText span{
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: 100;
+ } */
+.bidImage{
+  width: 106.908px;
+  height: 109.003px;
+}
+.footerItems{
+  width: 1125.429px;
+  height: 244px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.footerItem1{
+  width: 290.804px;
+height: 190px;
+flex-shrink: 0;
+}
+.footerItem1 .footerHeader{
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+width: 95px;
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.fitem{
+  width: 186.429px;
+height: 24px;
+flex-shrink: 0;
+display: flex;
+}
+.fitem li{
+  color: var(--White, #F1F1F1);
+  width: 143px;
+/* Taartu/body/large */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.5px;
+}
+.fitem svg{
+  width: 21.086px;
+height: 24px;
+flex-shrink: 0;
+}
+.footerItems ul{
+  list-style-type: none;
+  text-align: justify;
+}
+.footerItems ul li{
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footerHeader{
+  color: #FFF;
+  /* Subtitle 1_18 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  }
+.footerHeader{
+  font-weight: bold;
+}
+.newletter{
+  width: 307px;
+  height: 184px;
+  flex-shrink: 0;    
+  background-color: #1478A3;
+}
+.footerForm{
+  padding: 0;
+  color: #fff;
+  width: 300px;
+  background-color: #1478A3;
+}
+.footerForm h2{
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.footerForm h5{
+color: #FFF;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+opacity: 0.5;
+}
+.fbutton{
+  width: 102px;
+  height: 39px;
+  flex-shrink: 0;
+  fill: var(--Secondary, #086375);
+}
+.finput{
+  width: 169px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--White, #F1F1F1);
+}
+.finput ::placeholder{
+  color: #616161;
+font-family: Poppins;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
