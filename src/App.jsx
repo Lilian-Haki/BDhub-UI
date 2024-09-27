@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import RegisterForm from './components/RegisterForm/Register';
 import OTP from './components/OTP/Otp';
 import OTPNotice from './components/RegisterForm/Otpnotice'
-import Popup from './components/Popup/Popup'
+import Envelope from './components/Envelope/Envelope';
 import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom';
 import './App.css'; // Optional for styling
 
@@ -15,7 +15,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path ='/popup' element={<Popup/>}></Route>
+        <Route path='/envelope' element={<Envelope/>}></Route>
         <Route  path='/' element={<LoginForm/>}/>
         <Route  path='/register' element={<RegisterForm/>}/>
         <Route path='/OTP' element={<OTP/>}/>

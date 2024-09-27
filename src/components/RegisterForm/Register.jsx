@@ -124,9 +124,9 @@ const RegisterForm = ()=> {
         </div> */}
         </div>
         </div>
-
-        <h5>Please give your consent for electronic arketing communications.</h5>
-        <div>
+{/* Consent Section */}
+      <div className='consent'>
+      <h5>Please give your consent for electronic marketing communications.</h5>
         <input
         type="radio"
         name="options"
@@ -134,20 +134,22 @@ const RegisterForm = ()=> {
         // checked={selectedOption === 'option1'}
         // onChange={handleOptionChange}
       />
-Yes, I would like to receive electronnic marketing communications<br></br>
-<input
+      Yes, I would like to receive electronic marketing communications<br></br>
+      <input
         type="radio"
         name="options"
         value="option2"
         // checked={selectedOption === 'option2'}
         // onChange={handleOptionChange}
       />
-No, please do not send any electronic marketing communications
+       No, please do not send any electronic marketing communications
 </div>
 <div className='agreement'>
     <h5>By Clicking the "I Agree to the User Agreement" button, you are bound to the <u>User Agreement.</u>If you disagree with the terms and conditions of this User Agreement, you may not complete your account registration,gain access, or otherwise use the Sites or te Services. </h5>
-    <button className='button2'>I Disagree </button>
-    <button onClick={handleAgreeClick} >I Agree to the User Agreement</button>
+    <div className='agreement-buttons'>
+    <button className='disagree'>I Disagree </button>
+    <button className='agree' onClick={handleAgreeClick} >I Agree to the User Agreement</button>
+    </div>
       </div>
       </div>
       </form>
