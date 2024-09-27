@@ -12,28 +12,11 @@ const LoginForm = ()=> {
   };
 
   return (
+    
     <div className="lcontainer">
       <form onSubmit={handleSubmit} className="form">
         <h2>Hello there,</h2>
         <h5>Sign in now for great values at Agile BidHub</h5>
-        {/*<div className="inputGroup">
-          <label>First Name</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className="inputGroup">
-          <label>Last Name</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>*/}
         <div className="inputGroup">
           <label>Username</label>
           <input
@@ -56,9 +39,9 @@ const LoginForm = ()=> {
           />
         </div>
         <button type="submit" className="button">Sign In</button>
-        <h5>Forgot your Username or Password?</h5>
+        <h6>Forgot your <a href="#">Username</a> or <a href="#">Password?</a></h6>
       </form>
-      <div>
+      <div className='register-login'>
     <h2>Don't have an account?</h2>
     <button className='button2'>Register</button>
       </div>

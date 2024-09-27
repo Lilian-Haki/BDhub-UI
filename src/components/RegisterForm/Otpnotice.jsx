@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Otpnotice.css';
 import frame from '../../assets/Frame.svg';
+import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom';
 
 const OTPNotice = ()=> {
 
@@ -10,7 +11,7 @@ const OTPNotice = ()=> {
       <div className='main-frame'>
       <img src={frame} alt="BidHub" className="otp-notification" />
       </div>
-    <button className='verify-email'>Verify Email</button>
+      <Link to='/OTP'><button className='verify-email'>Verify Email</button></Link>
     </div>
     )
 }

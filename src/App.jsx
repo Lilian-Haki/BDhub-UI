@@ -18,7 +18,7 @@ const App = () => {
         <Route path ='/popup' element={<Popup/>}></Route>
         <Route  path='/' element={<LoginForm/>}/>
         <Route  path='/register' element={<RegisterForm/>}/>
-        <Route path='/otp' element={<OTP/>}/>
+        <Route path='/OTP' element={<OTP/>}/>
         <Route path='/notification' element={<OTPNotice/>}/>
       </Routes>
       <main>

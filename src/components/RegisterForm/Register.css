@@ -1,16 +1,177 @@
-   .container{
+    .reg-container{
     padding-bottom: 200px;
+    display: flex;
+    width: 870px;
+    padding: 57px 0px 57px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--Grey, #DDE2E5);
+    background: #FFF;
+    margin: 212px 240px 537px 270px;
    }
-   .form {
-    width: 800px;
+   .reg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    align-self: stretch;
+    margin: 0px 43px 27px 0px;
+     width: 800px;
     height: 900px;
-    margin: 250px auto;
-    margin-top: 400px;
-    }
-  .inputGroup {
-   padding: 10px 0px 10px 0px;      
+   }
+    .reg-form h2{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+      align-self: stretch;
+      color: var(--Black-5, #2B2F32);
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;    
   }
-  .inputGroup1 {
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    align-self: stretch;
+  }
+  .row-items{
+    display: flex;
+    align-items: flex-start;
+    gap: 44px;
+    align-self: stretch;
+  }
+  .column-1{
+    width: 400px;
+  }
+  /* .column-2{
+    width: 400px;
+  } */
+  .column-1 .inputGroupC {
+    display: flex;
+    margin: 0px 2px 8px 2px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-bottom: 24px;
+    } 
+.column-2 .inputGroupC{
+display: flex;
+padding-bottom: 90px;
+flex-direction: column;
+align-items: flex-start;
+margin: 0px 0px 41px 0px;
+}
+.column-2 .inputGroupC input{
+width: 375px;
+height: 40px;
+border-radius: 8px;
+background: var(--Input-defaultBackground, rgba(239, 241, 249, 0.60));
+border: 0;
+display: flex;
+padding: 20px 10px 0px 16px;
+}
+.column-1 .inputGroupC input{
+  width: 390px;
+  height: 40px; 
+  border-radius: 8px;
+  background: var(--Input-defaultBackground, rgba(239, 241, 249, 0.60)); 
+  border: 0;
+  display: flex;
+  padding: 20px 15px 0px 16px;
+}
+.column-1 .inputGroupC .phone-number{
+display: flex;
+/* align-items: flex-start; */
+}
+.column-1 .inputGroupC .phone-number .country-code{
+display: flex;
+width: 20px;
+height: 58px;
+padding: 8px 16px 8px 1px;
+/* flex-direction: column; */
+align-items: center;
+gap: 10px;
+}
+.column-1 .inputGroupC .phone-number .country-code input{
+  width: 110px;
+}
+.column-1 .inputGroupC .phone-number .pn-input input{
+  width: 245px;
+}
+.column-1 .inputGroupC .phone-number .pn-input{
+height: 58px;
+padding: 8px 0px 8px 110px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex: 1 0 0;
+}
+
+.inputGroupC label{
+      position: absolute;
+      padding: 8px 0px 10px 20px;
+      color: var(--Black-4, #5E6366);
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  .inputGroupC input::placeholder{
+    color: var(--Black-2, #ABAFB1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+.country-code img{
+position: absolute;
+}
+img .flag{
+  width: 35px;
+  height: 24px;
+  margin-right: 100px ;
+}
+.country-code input{
+  display: flex;
+height: 42px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+flex: 1 0 0;
+color: var(--Black-2, #ABAFB1);
+}
+.country-code img .drop-down{
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 0px 3.333px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .inputGroup1 {
     padding: 10px 0px 10px 0px; 
     display: flex;   
   }
@@ -47,4 +208,4 @@
   }
   .agreement{
     background-color: grey;
-  }
+  } */

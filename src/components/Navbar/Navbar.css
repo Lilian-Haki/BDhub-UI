@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css);
+/* @import url("https://fonts.googleapis.com/css?family=Font+Name") */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 .hero-container {
     background-color: white;
     padding: 20px 0;
@@ -24,6 +28,7 @@
     height: 55px;
     width: auto;
     margin-left: -100px;
+    margin-bottom: -10px;
   }
    
   /* .search-container {
@@ -32,24 +37,27 @@
     */
   .search-container{
     display: flex;
-width: 360px;
-height: 48px;
-min-width: 360px;
-max-width: 720px;
-align-items: center;
-gap: 4px;
-flex-shrink: 0;
-border: 1px solid rgba(0, 0, 0, 0.40);
+    width: 360px;
+    height: 48px;
+    min-width: 360px;
+    max-width: 720px;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    margin-left: -240px;
+    margin-bottom: -15px;
   }
   .search-container .menu-icon{
     display: flex;
-    width: 48px;
-    height: 48px;
+    width: 28px;
+    height: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    padding: 6px 6px;
   }
   .search-container .search-input {
     display: flex;
@@ -57,16 +65,29 @@ border: 1px solid rgba(0, 0, 0, 0.40);
     gap: 10px;
     flex: 1 0 0;
     align-self: stretch; 
-     
+    border: 0;
+  }
+  .search-container .search-input:focus{
+    outline: none;
+  }
+  .search-container .search-input::placeholder{
+    color: var(--Schemes-On-Surface-Variant, #49454F);
+    font-family: var(--Body-Large-Font, Roboto);
+    font-size: var(--Body-Large-Size, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Body-Large-Line-Height, 24px); /* 150% */
+    letter-spacing: var(--Body-Large-Tracking, 0.5px);
   }
   .search-container .search-icon{
     display: flex;
-width: 48px;
-height: 48px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
   }
   .hero ul {
     display: flex;
@@ -89,18 +110,27 @@ gap: 10px;
     align-items: center;
   }
    
-  .hero .login {
+  .hero .tenders-login .login {
+    height: 40px;
     font-size: 14px;
     font-weight: 540;
     margin-top: 5px;
-    color: rgb(61, 121, 161);
+    color: #1478A3;
     cursor: pointer;
     background-color: aliceblue;
+    text-align: center;
+    font-family: var(--Label-Large-Font, Roboto);
+    font-size: var(--Label-Large-Size, 14px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--Label-Large-Line-Height, 20px); /* 142.857% */
+    letter-spacing: var(--Label-Large-Tracking, 0.1px);
   }
-   .hero .login:hover{
-    background: var(--Schemes-On-Surface-Variant, #49454F);
+   .hero .tenders-login .login:hover{
+    background: var(--Schemes-On-Surface-Variant, rgb(193, 215, 230));
    }
   .hero .contact-register .register {
+    height: 40px;
     font-size: 14px;
     margin-top: 5px;
     background-color: rgb(61, 121, 161);
@@ -109,11 +139,20 @@ gap: 10px;
     padding: 8px 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border-radius: 0%;
+    color: var(--Schemes-On-Primary, #FFF);
+    text-align: center;
+    font-family: var(--Label-Large-Font, Roboto);
+    font-size: var(--Label-Large-Size, 14px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--Label-Large-Line-Height, 20px); /* 142.857% */
+    letter-spacing: var(--Label-Large-Tracking, 0.1px);
   }
-   
   .hero .register:hover {
-    background-color: rgb(61, 121, 161);
-    box-shadow: 5px 5px 5px 1px #2c4f7788;
+    background-color: rgb(67, 127, 167);
+    box-shadow: 1px 1px 5px 1px #5180b688;
+    border-radius: 0%;
   }
 .listingCategories ul{
     display: flex;

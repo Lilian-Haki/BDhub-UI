@@ -37,7 +37,7 @@ const OTP = () => {
             />
           ))}
         </div>
-        <button type="submit" className="buttonOtp">Confirm Account</button>
+      <button type="submit" className="buttonOtp">Confirm Account</button>
 
       </form>
     );
