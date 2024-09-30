@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Otp.css'
+import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom';
+
 const OTP = () => {
     const [otp, setOtp] = useState(new Array(6).fill(""));
   
@@ -37,7 +39,7 @@ const OTP = () => {
             />
           ))}
         </div>
-      <button type="submit" className="buttonOtp">Confirm Account</button>
+        <Link to='/Envelope'> <button type="submit" className="buttonOtp">Confirm Account</button></Link>
 
       </form>
     );
